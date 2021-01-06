@@ -18,5 +18,10 @@ Group your changes into these categories:
 
 ## Unreleased
 
+[List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.0.0...master)
+
+
+## [1.0.0](https://gitlab.com/hifis/ansible/ssh-keys/-/releases/v1.0.0) - 2021-01-06
+
 ### Added
 - Initial release of the Ansible SSH-Keys role
