@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2020 Helmholtz Centre for Environmental Research (UFZ)
+# SPDX-FileCopyrightText: 2020 Helmholtz-Zentrum Dresden-Rossendorf (HZDR)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+---
+- name: Manage authorized ssh keys
+  authorized_key:
+    user: "{{ ssh_user.name }}"
+    key: "{{ ssh_user.authorized_keys | default([]) | join('\n') }}"
+    exclusive: "{{ ssh_authorized_keys_exclusive }}"
+  when:
+    - ssh_user.name | default('')
+    - ssh_user.name | length > 0
+  loop: "{{ ssh_user_list }}"
+  loop_control:
+    loop_var: ssh_user
+
+...

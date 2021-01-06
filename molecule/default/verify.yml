@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2020 Helmholtz Centre for Environmental Research (UFZ)
+# SPDX-FileCopyrightText: 2020 Helmholtz-Zentrum Dresden-Rossendorf (HZDR)
+#
+# SPDX-License-Identifier: Apache-2.0
+
+---
+- name: Verify
+  hosts: all
+  tasks:
+    - name: Ensure ssh key is present
+      lineinfile:
+        path: /root/.ssh/authorized_keys
+        regexp: '^{{ item }}(.*)$'
+        line: '{{ item }}\1'
+        state: present
+        backrefs: yes
+      check_mode: yes
+      register: line_in_file
+      failed_when: (line_in_file.changed) or (line_in_file.failed)
+      loop:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJi3wBlOT+oR8Rd+YQsV8tUoQOd3NSUuyzJYQp8finD6 john@example.com
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDXkvy8jMmw45grnmYK+Ylk/mcc7IyG9taNseNiVrGjR8KRHVJpzEntW1g6SAomIGIpBLvviiyhal4E1v1bhpv2JopbiM3JDOck6gwc4AfpanjuZFPuq6stq5pF7bb2C+zliw16zTFL7bp09tD7nNs30GlchB5DU2sSn1zq4iC+eQ== john@example.com # noqa 204
