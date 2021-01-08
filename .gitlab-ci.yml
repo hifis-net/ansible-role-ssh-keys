@@ -52,6 +52,8 @@ test:
           - centos:8
           - ubuntu:18.04
           - ubuntu:20.04
+          - debian:9
+          - debian:10
 
 .moleculetest:
   stage: test

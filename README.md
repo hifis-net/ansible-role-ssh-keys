@@ -14,6 +14,8 @@ Currently [supported platforms](meta/main.yml) are:
 - CentOS 8
 - Ubuntu 18.04 LTS
 - Ubuntu 20.04 LTS
+- Debian Stretch
+- Debian Buster
 
 ## Requirements
 
