@@ -25,6 +25,11 @@ Group your changes into these categories:
   ([!1](https://gitlab.com/hifis/ansible/ssh-keys/-/merge_requests/1)
   by [tobiashuste](https://gitlab.com/tobiashuste)).
 
+### Changed
+- Improve Ansible Galaxy tags
+  ([!2](https://gitlab.com/hifis/ansible/ssh-keys/-/merge_requests/2)
+  by [tobiashuste](https://gitlab.com/tobiashuste)).
+
 ## [1.0.0](https://gitlab.com/hifis/ansible/ssh-keys/-/releases/v1.0.0) - 2021-01-06
 
 ### Added
