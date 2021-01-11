@@ -24,6 +24,10 @@ galaxy_info:
       versions:
         - bionic
         - focal
+    - name: Debian
+      versions:
+        - Buster
+        - Stretch
 
   galaxy_tags:
     - gitlab

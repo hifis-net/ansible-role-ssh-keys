@@ -20,6 +20,10 @@ Group your changes into these categories:
 
 [List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.0.0...master)
 
+### Added
+- Support Debian Buster/Strech and simplify the CI pipeline
+  ([!1](https://gitlab.com/hifis/ansible/ssh-keys/-/merge_requests/1)
+  by [tobiashuste](https://gitlab.com/tobiashuste)).
 
 ## [1.0.0](https://gitlab.com/hifis/ansible/ssh-keys/-/releases/v1.0.0) - 2021-01-06
 

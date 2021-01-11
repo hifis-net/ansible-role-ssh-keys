@@ -43,25 +43,17 @@ validate:
     paths:
       - .pipenv
 
-test-centos7:
-  variables:
-    MOLECULE_DISTRO: centos:7
+test:
   extends: .moleculetest
-
-test-centos8:
-  variables:
-    MOLECULE_DISTRO: centos:8
-  extends: .moleculetest
-
-test-ubuntu1804:
-  variables:
-    MOLECULE_DISTRO: ubuntu:18.04
-  extends: .moleculetest
-
-test-ubuntu2004:
-  variables:
-    MOLECULE_DISTRO: ubuntu:20.04
-  extends: .moleculetest
+  parallel:
+    matrix:
+      - MOLECULE_DISTRO:
+          - centos:7
+          - centos:8
+          - ubuntu:18.04
+          - ubuntu:20.04
+          - debian:9
+          - debian:10
 
 .moleculetest:
   stage: test
