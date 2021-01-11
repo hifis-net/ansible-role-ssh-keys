@@ -30,7 +30,10 @@ galaxy_info:
         - Stretch
 
   galaxy_tags:
-    - gitlab
+    - ssh
+    - authorized
+    - key
+    - keys
 
 dependencies: []
 
