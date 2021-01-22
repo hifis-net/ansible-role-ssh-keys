@@ -16,9 +16,9 @@ Group your changes into these categories:
 
 `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`.
 
-## Unreleased
+## [1.1.0](https://gitlab.com/hifis/ansible/ssh-keys/-/releases/v1.1.0) - 2021-01-22
 
-[List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.0.0...master)
+[List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.0.0...v1.1.0)
 
 ### Added
 - Support Debian Buster/Strech and simplify the CI pipeline
