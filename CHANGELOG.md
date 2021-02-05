@@ -16,9 +16,9 @@ Group your changes into these categories:
 
 `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`.
 
-## Unreleased
+## [1.2.0](https://gitlab.com/hifis/ansible/ssh-keys/-/releases/v1.2.0) - 2021-02-08
 
-[List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.1.0...master)
+[List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.1.0...v1.2.0)
 
 ### Added
 
