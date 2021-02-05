@@ -16,6 +16,16 @@ Group your changes into these categories:
 
 `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`.
 
+## Unreleased
+
+[List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.1.0...master)
+
+### Added
+
+- Automate role import into Ansible Galaxy via GitHub Actions
+  ([!7](https://gitlab.com/hifis/ansible/ssh-keys/-/merge_requests/7)
+  by [tobiashuste](https://gitlab.com/tobiashuste)).
+
 ## [1.1.0](https://gitlab.com/hifis/ansible/ssh-keys/-/releases/v1.1.0) - 2021-01-22
 
 [List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.0.0...v1.1.0)
