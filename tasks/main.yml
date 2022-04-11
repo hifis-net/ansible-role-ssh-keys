@@ -5,7 +5,7 @@
 
 ---
 - name: Manage authorized ssh keys
-  authorized_key:
+  ansible.posix.authorized_key:
     user: "{{ ssh_user.name }}"
     key: "{{ ssh_user.authorized_keys | default([]) | join('\n') }}"
     exclusive: "{{ ssh_authorized_keys_exclusive }}"
