@@ -17,7 +17,7 @@ SPDX-License-Identifier: Apache-2.0
 
 ## [v1.2.0](https://github.com/hifis-net/ssh-keys/releases/tag/v1.2.0) - 2021-02-08
 
-[List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.1.0...v1.2.0)
+[List of commits](https://github.com/hifis-net/ssh-keys/compare/v1.1.0...v1.2.0)
 
 ### Added
 
@@ -27,7 +27,7 @@ SPDX-License-Identifier: Apache-2.0
 
 ## [v1.1.0](https://github.com/hifis-net/ssh-keys/releases/tag/v1.1.0) - 2021-01-22
 
-[List of commits](https://gitlab.com/hifis/ansible/ssh-keys/-/compare/v1.0.0...v1.1.0)
+[List of commits](https://github.com/hifis-net/ssh-keys/compare/v1.0.0...v1.1.0)
 
 ### Added
 - Support Debian Buster/Strech and simplify the CI pipeline
