@@ -1,5 +1,5 @@
-# SPDX-FileCopyrightText: 2020 Helmholtz Centre for Environmental Research (UFZ)
-# SPDX-FileCopyrightText: 2020 Helmholtz-Zentrum Dresden-Rossendorf (HZDR)
+# SPDX-FileCopyrightText: 2022 Helmholtz Centre for Environmental Research (UFZ)
+# SPDX-FileCopyrightText: 2022 Helmholtz-Zentrum Dresden-Rossendorf (HZDR)
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -9,13 +9,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-yamllint = "~=1.26"
-ansible-lint = "~=4.3.7"
-molecule = {extras = ["docker"], version = "~=3.2.3"}
-reuse = "~=0.12.1"
+yamllint = "~=1.26.3"
+ansible-lint = "~=6.0.2"
+molecule = {extras = ["docker"], version = "~=3.6.1"}
+reuse = "~=0.14.0"
 
 [packages]
-ansible = "~=2.10.6"
+ansible = "~=5.6.0"
 
 [requires]
-python_version = "3"
+python_version = "3.9"
