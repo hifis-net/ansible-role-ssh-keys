@@ -14,5 +14,5 @@
           - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDXkvy8jMmw45grnmYK+Ylk/mcc7IyG9taNseNiVrGjR8KRHVJpzEntW1g6SAomIGIpBLvviiyhal4E1v1bhpv2JopbiM3JDOck6gwc4AfpanjuZFPuq6stq5pF7bb2C+zliw16zTFL7bp09tD7nNs30GlchB5DU2sSn1zq4iC+eQ== john@example.com # noqa 204
   tasks:
     - name: Include ssh-keys-role
-      include_role:
+      ansible.builtin.include_role:
         name: "{{ lookup('env', 'MOLECULE_PROJECT_DIRECTORY') | basename }}"
