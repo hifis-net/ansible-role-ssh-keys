@@ -8,7 +8,7 @@
   hosts: all
   tasks:
     - name: Ensure ssh key is present
-      lineinfile:
+      ansible.builtin.lineinfile:
         path: /root/.ssh/authorized_keys
         regexp: '^{{ item }}(.*)$'
         line: '{{ item }}\1'

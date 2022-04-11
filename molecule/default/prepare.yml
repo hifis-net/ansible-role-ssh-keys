@@ -8,8 +8,8 @@
   hosts: all
   gather_facts: no
   pre_tasks:
-    - name: Install Python # noqa 301
-      raw: >
+    - name: Install Python  # noqa no-changed-when
+      ansible.builtin.raw: >
         if [ "" == "`which python3`" ];
         then echo "Python3 Not Found";
         if [ -n "`which apt-get`" ];
@@ -20,5 +20,4 @@
         fi
       args:
         executable: /bin/bash
-      ignore_errors: yes
 ...
