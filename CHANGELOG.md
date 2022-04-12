@@ -1,12 +1,22 @@
 # Changelog
 
-## [Unreleased](https://github.com/hifis-net/ssh-keys/tree/HEAD)
+## [Unreleased](https://github.com/hifis-net/ansible-role-ssh-keys/tree/HEAD)
 
-[Full Changelog](https://github.com/hifis-net/ssh-keys/compare/v1.2.0...HEAD)
+[Full Changelog](https://github.com/hifis-net/ansible-role-ssh-keys/compare/v1.2.0...HEAD)
+
+**Implemented enhancements:**
+
+- Add badges to README [\#13](https://github.com/hifis-net/ansible-role-ssh-keys/issues/13)
+- Migrate changelog to github-changelog-generator [\#3](https://github.com/hifis-net/ansible-role-ssh-keys/issues/3)
+- Add badges to README [\#15](https://github.com/hifis-net/ansible-role-ssh-keys/pull/15) ([tobiashuste](https://github.com/tobiashuste))
 
 **Merged pull requests:**
 
-- Implement GitHub actions workflows [\#2](https://github.com/hifis-net/ssh-keys/pull/2) ([Normo](https://github.com/Normo))
+- Update Python dependencies and specify Python version explicitly [\#14](https://github.com/hifis-net/ansible-role-ssh-keys/pull/14) ([tobiashuste](https://github.com/tobiashuste))
+- Use the FQCN in the whole project [\#12](https://github.com/hifis-net/ansible-role-ssh-keys/pull/12) ([tobiashuste](https://github.com/tobiashuste))
+- Update Galaxy meta information file [\#11](https://github.com/hifis-net/ansible-role-ssh-keys/pull/11) ([tobiashuste](https://github.com/tobiashuste))
+- Migrate manual changelog to github-changelog-generator [\#10](https://github.com/hifis-net/ansible-role-ssh-keys/pull/10) ([Normo](https://github.com/Normo))
+- Implement GitHub actions workflows [\#2](https://github.com/hifis-net/ansible-role-ssh-keys/pull/2) ([Normo](https://github.com/Normo))
 
 <!--
 SPDX-FileCopyrightText: 2020 Helmholtz Centre for Environmental Research (UFZ)
@@ -15,9 +25,9 @@ SPDX-FileCopyrightText: 2020 Helmholtz-Zentrum Dresden-Rossendorf (HZDR)
 SPDX-License-Identifier: Apache-2.0
 -->
 
-## [v1.2.0](https://github.com/hifis-net/ssh-keys/releases/tag/v1.2.0) - 2021-02-08
+## [v1.2.0](https://github.com/hifis-net/ansible-role-ssh-keys/releases/tag/v1.2.0) - 2021-02-08
 
-[List of commits](https://github.com/hifis-net/ssh-keys/compare/v1.1.0...v1.2.0)
+[List of commits](https://github.com/hifis-net/ansible-role-ssh-keys/compare/v1.1.0...v1.2.0)
 
 ### Added
 
@@ -25,9 +35,9 @@ SPDX-License-Identifier: Apache-2.0
   ([!7](https://gitlab.com/hifis/ansible/ssh-keys/-/merge_requests/7)
   by [tobiashuste](https://gitlab.com/tobiashuste)).
 
-## [v1.1.0](https://github.com/hifis-net/ssh-keys/releases/tag/v1.1.0) - 2021-01-22
+## [v1.1.0](https://github.com/hifis-net/ansible-role-ssh-keys/releases/tag/v1.1.0) - 2021-01-22
 
-[List of commits](https://github.com/hifis-net/ssh-keys/compare/v1.0.0...v1.1.0)
+[List of commits](https://github.com/hifis-net/ansible-role-ssh-keys/compare/v1.0.0...v1.1.0)
 
 ### Added
 - Support Debian Buster/Strech and simplify the CI pipeline
@@ -39,7 +49,7 @@ SPDX-License-Identifier: Apache-2.0
   ([!2](https://gitlab.com/hifis/ansible/ssh-keys/-/merge_requests/2)
   by [tobiashuste](https://gitlab.com/tobiashuste)).
 
-## [v1.0.0](https://github.com/hifis-net/ssh-keys/releases/tag/v1.0.0) - 2021-01-06
+## [v1.0.0](https://github.com/hifis-net/ansible-role-ssh-keys/releases/tag/v1.0.0) - 2021-01-06
 
 ### Added
 - Initial release of the Ansible SSH-Keys role
