@@ -5,38 +5,35 @@
 
 ---
 galaxy_info:
-  role_name: ssh_keys
-  namespace: hifis
-  author: HIFIS Software Team
-  description: Add provided authorized SSH public keys to a user.
-  company: Helmholtz Association
+  role_name: "ssh_keys"
+  author: "hifis"
+  description: "Add provided authorized SSH public keys to a user."
+  company: "Helmholtz Association"
 
-  issue_tracker_url: https://github.com/hifis-net/ansible-role-ssh-keys/issues
+  issue_tracker_url: "https://github.com/hifis-net/ansible-role-ssh-keys/issues"
 
-  license: Apache-2.0
-  min_ansible_version: 2.9
-
-  github_branch: main
+  license: "Apache-2.0"
+  min_ansible_version: "2.9"
 
   platforms:
-    - name: EL
+    - name: "EL"
       versions:
-        - 7
-        - 8
-    - name: Ubuntu
+        - "7"
+        - "8"
+    - name: "Ubuntu"
       versions:
-        - bionic
-        - focal
-    - name: Debian
+        - "bionic"
+        - "focal"
+    - name: "Debian"
       versions:
-        - Buster
-        - Stretch
+        - "buster"
+        - "stretch"
 
   galaxy_tags:
-    - ssh
-    - authorized
-    - key
-    - keys
+    - "ssh"
+    - "authorized"
+    - "key"
+    - "keys"
 
 dependencies: []
 
