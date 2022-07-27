@@ -58,7 +58,6 @@ jobs:
           - rockylinux8
           - ubuntu1804
           - ubuntu2004
-          - debian9
           - debian10
 
     steps:
