@@ -1,10 +1,3 @@
-<!--
-SPDX-FileCopyrightText: 2020 Helmholtz Centre for Environmental Research (UFZ)
-SPDX-FileCopyrightText: 2020 Helmholtz-Zentrum Dresden-Rossendorf (HZDR)
-
-SPDX-License-Identifier: Apache-2.0
--->
-
 ## [v1.2.0](https://github.com/hifis-net/ansible-role-ssh-keys/releases/tag/v1.2.0) - 2021-02-08
 
 [List of commits](https://github.com/hifis-net/ansible-role-ssh-keys/compare/v1.1.0...v1.2.0)
