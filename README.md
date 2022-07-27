@@ -19,7 +19,7 @@ This Ansible role distributes authorized SSH public keys to users.
 Currently [supported platforms](meta/main.yml) are:
 
 - CentOS 7
-- RockyLinux 8
+- AlmaLinux 8
 - Ubuntu 18.04 LTS
 - Ubuntu 20.04 LTS
 - Debian Buster
