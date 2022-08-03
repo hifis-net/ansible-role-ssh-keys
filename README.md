@@ -8,9 +8,9 @@ SPDX-License-Identifier: Apache-2.0
 # SSH Keys Role
 
 [![CI Status](https://github.com/hifis-net/ansible-role-ssh-keys/actions/workflows/ci.yml/badge.svg)](https://github.com/hifis-net/ansible-role-ssh-keys/actions/workflows/ci.yml)
-[![Ansible Galaxy Role](https://img.shields.io/ansible/role/52667?color=orange)](https://galaxy.ansible.com/hifis/ssh_keys)
-[![Ansible Galaxy Role downloads](https://img.shields.io/ansible/role/d/52667)](https://galaxy.ansible.com/hifis/ssh_keys)
-[![Ansible Galaxy quality score](https://img.shields.io/ansible/quality/52667)](https://galaxy.ansible.com/hifis/ssh_keys)
+[![Ansible Galaxy Role](https://img.shields.io/ansible/role/59830?color=orange)](https://galaxy.ansible.com/hifis/ssh_keys)
+[![Ansible Galaxy Role downloads](https://img.shields.io/ansible/role/d/59830)](https://galaxy.ansible.com/hifis/ssh_keys)
+[![Ansible Galaxy quality score](https://img.shields.io/ansible/quality/59830)](https://galaxy.ansible.com/hifis/ssh_keys)
 [![Apache-2.0 Licensed](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/hifis-net/ansible-role-ssh-keys/blob/main/LICENSES/Apache-2.0.txt)
 [![Latest release](https://img.shields.io/github/v/release/hifis-net/ansible-role-ssh-keys)](https://github.com/hifis-net/ansible-role-ssh-keys/releases)
 
