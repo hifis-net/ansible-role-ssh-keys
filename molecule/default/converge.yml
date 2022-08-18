@@ -8,6 +8,10 @@
   hosts: all
   vars:
     ssh_user_list:
+      - name: dummyuser
+        authorized_keys:
+          - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJi3wBlOT+oR8Rd+YQsV8tUoQOd3NSUuyzJYQp8finD6 john@example.com
+        create_user_account: true
       - name: root
         authorized_keys:
           - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJi3wBlOT+oR8Rd+YQsV8tUoQOd3NSUuyzJYQp8finD6 john@example.com
