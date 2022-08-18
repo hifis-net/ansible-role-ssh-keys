@@ -7,6 +7,13 @@
 - name: Verify
   hosts: all
   tasks:
+    - name: "Ensure ssh dummy user is present"
+      ansible.builtin.user:
+        name: "dummyuser"
+        state: "present"
+      register: "dummyuser"
+      failed_when: "dummyuser.changed"
+
     - name: Ensure ssh key is present
       ansible.builtin.lineinfile:
         path: /root/.ssh/authorized_keys
