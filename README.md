@@ -62,4 +62,11 @@ None.
 
 ## Author Information
 
-This role was created by [HIFIS Software Services](https://software.hifis.net/).
+This role was created by [HIFIS Software Services](https://hifis.net/).
+
+## Contributors
+
+We would like to thank and give credits to the following contributors of this
+project:
+ 
+* Be the first to be named here!
