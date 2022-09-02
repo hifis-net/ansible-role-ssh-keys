@@ -7,7 +7,27 @@
 - name: Verify
   hosts: all
   tasks:
-    - name: Ensure ssh key is present
+    - name: "Ensure ssh dummy user is present"
+      ansible.builtin.user:
+        name: "dummyuser"
+        state: "present"
+      register: "dummyuser"
+      failed_when: "dummyuser.changed"
+
+    - name: Ensure ssh key for newly created user is present
+      ansible.builtin.lineinfile:
+        path: /home/dummyuser/.ssh/authorized_keys
+        regexp: '^{{ ssh_public_key }}(.*)$'
+        line: '{{ ssh_public_key }}\1'
+        state: present
+        backrefs: yes
+      check_mode: yes
+      register: line_in_file
+      failed_when: (line_in_file.changed) or (line_in_file.failed)
+      vars:
+        ssh_public_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJi3wBlOT+oR8Rd+YQsV8tUoQOd3NSUuyzJYQp8finD6 john@example.com"
+
+    - name: Ensure ssh key for existing user is present
       ansible.builtin.lineinfile:
         path: /root/.ssh/authorized_keys
         regexp: '^{{ item }}(.*)$'
