@@ -13,6 +13,7 @@ SPDX-License-Identifier: Apache-2.0
 [![Ansible Galaxy quality score](https://img.shields.io/ansible/quality/59830)](https://galaxy.ansible.com/hifis/ssh_keys)
 [![Apache-2.0 Licensed](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/hifis-net/ansible-role-ssh-keys/blob/main/LICENSES/Apache-2.0.txt)
 [![Latest release](https://img.shields.io/github/v/release/hifis-net/ansible-role-ssh-keys)](https://github.com/hifis-net/ansible-role-ssh-keys/releases)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7049964.svg)](https://doi.org/10.5281/zenodo.7049964)
 
 This Ansible role distributes authorized SSH public keys to users.
 
