@@ -1,6 +1,6 @@
 # Changelog
 
-## [v1.4.0](https://github.com/hifis-net/ansible-role-ssh-keys/tree/v1.4.0) (2022-09-02)
+## [v1.4.0](https://github.com/hifis-net/ansible-role-ssh-keys/tree/v1.4.0) (2022-09-05)
 
 [Full Changelog](https://github.com/hifis-net/ansible-role-ssh-keys/compare/v1.3.0...v1.4.0)
 
@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- Prepare release v1.4.0 [\#56](https://github.com/hifis-net/ansible-role-ssh-keys/pull/56) ([Normo](https://github.com/Normo))
 - Add contribution guide [\#55](https://github.com/hifis-net/ansible-role-ssh-keys/pull/55) ([Normo](https://github.com/Normo))
 - Bump ansible-lint from 6.4.0 to 6.5.2 [\#54](https://github.com/hifis-net/ansible-role-ssh-keys/pull/54) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Add CITATION.cff [\#53](https://github.com/hifis-net/ansible-role-ssh-keys/pull/53) ([Normo](https://github.com/Normo))
