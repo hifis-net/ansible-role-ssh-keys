@@ -1,5 +1,28 @@
 # Changelog
 
+## [v1.4.0](https://github.com/hifis-net/ansible-role-ssh-keys/tree/v1.4.0) (2022-09-02)
+
+[Full Changelog](https://github.com/hifis-net/ansible-role-ssh-keys/compare/v1.3.0...v1.4.0)
+
+**Implemented enhancements:**
+
+- Create users if the are not present [\#48](https://github.com/hifis-net/ansible-role-ssh-keys/issues/48)
+
+**Closed issues:**
+
+- Add a contribution guide [\#16](https://github.com/hifis-net/ansible-role-ssh-keys/issues/16)
+
+**Merged pull requests:**
+
+- Add contribution guide [\#55](https://github.com/hifis-net/ansible-role-ssh-keys/pull/55) ([Normo](https://github.com/Normo))
+- Bump ansible-lint from 6.4.0 to 6.5.2 [\#54](https://github.com/hifis-net/ansible-role-ssh-keys/pull/54) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Add CITATION.cff [\#53](https://github.com/hifis-net/ansible-role-ssh-keys/pull/53) ([Normo](https://github.com/Normo))
+- Bump ansible from 6.2.0 to 6.3.0 [\#51](https://github.com/hifis-net/ansible-role-ssh-keys/pull/51) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Ensure ssh users are present [\#49](https://github.com/hifis-net/ansible-role-ssh-keys/pull/49) ([Normo](https://github.com/Normo))
+- Bump ansible from 6.1.0 to 6.2.0 [\#47](https://github.com/hifis-net/ansible-role-ssh-keys/pull/47) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible-lint from 6.3.0 to 6.4.0 [\#46](https://github.com/hifis-net/ansible-role-ssh-keys/pull/46) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Fix role badges [\#45](https://github.com/hifis-net/ansible-role-ssh-keys/pull/45) ([tobiashuste](https://github.com/tobiashuste))
+
 ## [v1.3.0](https://github.com/hifis-net/ansible-role-ssh-keys/tree/v1.3.0) (2022-07-27)
 
 [Full Changelog](https://github.com/hifis-net/ansible-role-ssh-keys/compare/v1.2.0...v1.3.0)
@@ -14,10 +37,13 @@
 
 **Closed issues:**
 
+- Remove support for Debian 9 [\#40](https://github.com/hifis-net/ansible-role-ssh-keys/issues/40)
 - Rename project to ansible-role-ssh-keys [\#4](https://github.com/hifis-net/ansible-role-ssh-keys/issues/4)
+- Rename default branch to 'main' [\#1](https://github.com/hifis-net/ansible-role-ssh-keys/issues/1)
 
 **Merged pull requests:**
 
+- Release version 1.3.0 [\#44](https://github.com/hifis-net/ansible-role-ssh-keys/pull/44) ([tobiashuste](https://github.com/tobiashuste))
 - Support Debian 11, AlmaLinux 9 and Ubuntu 22.04 [\#43](https://github.com/hifis-net/ansible-role-ssh-keys/pull/43) ([tobiashuste](https://github.com/tobiashuste))
 - Remove support for EOL Debian 9 [\#39](https://github.com/hifis-net/ansible-role-ssh-keys/pull/39) ([tobiashuste](https://github.com/tobiashuste))
 - Use molecule-podman instead of molecule-docker [\#38](https://github.com/hifis-net/ansible-role-ssh-keys/pull/38) ([tobiashuste](https://github.com/tobiashuste))

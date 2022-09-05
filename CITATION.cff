@@ -34,5 +34,5 @@ authors:
     orcid: 'https://orcid.org/0000-0002-5028-6663'
 repository-code: 'https://github.com/hifis-net/ansible-role-ssh-keys'
 repository-artifact: 'https://galaxy.ansible.com/hifis/ssh_keys'
-version: 'v1.3.0'
-date-released: '2022-07-27'
+version: 'v1.4.0'
+date-released: '2022-09-02'
