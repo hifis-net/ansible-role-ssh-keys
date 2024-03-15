@@ -1,5 +1,31 @@
 # Changelog
 
+## [Unreleased](https://github.com/hifis-net/ansible-role-ssh-keys/tree/HEAD)
+
+[Full Changelog](https://github.com/hifis-net/ansible-role-ssh-keys/compare/v1.4.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump ansible-lint from 6.14.0 to 6.22.2 [\#101](https://github.com/hifis-net/ansible-role-ssh-keys/pull/101) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible from 6.5.0 to 8.7.0 [\#99](https://github.com/hifis-net/ansible-role-ssh-keys/pull/99) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump yamllint from 1.28.0 to 1.35.1 [\#98](https://github.com/hifis-net/ansible-role-ssh-keys/pull/98) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump reuse from 1.1.0 to 3.0.1 [\#97](https://github.com/hifis-net/ansible-role-ssh-keys/pull/97) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump molecule from 4.0.3 to 6.0.3 [\#96](https://github.com/hifis-net/ansible-role-ssh-keys/pull/96) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible-lint from 6.9.0 to 6.14.0 [\#95](https://github.com/hifis-net/ansible-role-ssh-keys/pull/95) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump reuse from 1.0.0 to 1.1.0 [\#78](https://github.com/hifis-net/ansible-role-ssh-keys/pull/78) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible-lint from 6.8.6 to 6.9.0 [\#77](https://github.com/hifis-net/ansible-role-ssh-keys/pull/77) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible-lint from 6.8.4 to 6.8.6 [\#73](https://github.com/hifis-net/ansible-role-ssh-keys/pull/73) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible-lint from 6.8.3 to 6.8.4 [\#71](https://github.com/hifis-net/ansible-role-ssh-keys/pull/71) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible-lint from 6.8.2 to 6.8.3 [\#70](https://github.com/hifis-net/ansible-role-ssh-keys/pull/70) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump molecule from 4.0.2 to 4.0.3 [\#69](https://github.com/hifis-net/ansible-role-ssh-keys/pull/69) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump molecule from 4.0.1 to 4.0.2 [\#67](https://github.com/hifis-net/ansible-role-ssh-keys/pull/67) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible-lint from 6.8.0 to 6.8.2 [\#66](https://github.com/hifis-net/ansible-role-ssh-keys/pull/66) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible from 6.4.0 to 6.5.0 [\#65](https://github.com/hifis-net/ansible-role-ssh-keys/pull/65) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible-lint from 6.5.2 to 6.8.0 [\#63](https://github.com/hifis-net/ansible-role-ssh-keys/pull/63) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump molecule-podman from 2.0.2 to 2.0.3 [\#62](https://github.com/hifis-net/ansible-role-ssh-keys/pull/62) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible from 6.3.0 to 6.4.0 [\#58](https://github.com/hifis-net/ansible-role-ssh-keys/pull/58) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump yamllint from 1.27.1 to 1.28.0 [\#57](https://github.com/hifis-net/ansible-role-ssh-keys/pull/57) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.4.0](https://github.com/hifis-net/ansible-role-ssh-keys/tree/v1.4.0) (2022-09-05)
 
 [Full Changelog](https://github.com/hifis-net/ansible-role-ssh-keys/compare/v1.3.0...v1.4.0)
