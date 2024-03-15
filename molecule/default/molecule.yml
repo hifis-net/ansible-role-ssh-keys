@@ -16,9 +16,6 @@ platforms:
     override_command: false
     systemd: true
     tty: true
-lint: |
-  yamllint --strict --format colored . &&
-  ansible-lint -v --offline --force-color --exclude .pipenv/ .
 provisioner:
   name: ansible
 verifier:
