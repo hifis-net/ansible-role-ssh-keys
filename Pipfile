@@ -19,4 +19,4 @@ reuse = "~=3.0.1"
 ansible = "~=8.7.0"
 
 [requires]
-python_version = "3.9"
+python_version = "3.12"
