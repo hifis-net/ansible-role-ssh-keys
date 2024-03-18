@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "dc55b5ee914c04f725a9da29d34088990da0e5b07bea8060c4a1103bab38b1be"
+            "sha256": "4cdb3da0b825cc8233ccfe04c9197dffea6cfa1629210d8890e99ab33bbaca4f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -629,11 +629,12 @@
                 "podman"
             ],
             "hashes": [
-                "sha256:8e5d7a7841f9ed5dd26878d24951ec030b86f780aca17ffc509db8076f42de3d",
-                "sha256:d2a881062fcc5ef1e08c1e5127c04354d2c95171955e270bd82b3fbfef72d3b0"
+                "sha256:47c982a7d05db7846da77fe7159deb946f26cafb2e388fc71812be0089a41776",
+                "sha256:eac7d9bf12d2bf5254e13a46a40357615c32e7003409f305c3940e93b65d7bea"
             ],
             "index": "pypi",
-            "version": "==6.0.3"
+            "markers": "python_version >= '3.10'",
+            "version": "==24.2.0"
         },
         "molecule-podman": {
             "hashes": [
