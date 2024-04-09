@@ -13,7 +13,7 @@ yamllint = "~=1.35.1"
 ansible-lint = "~=24.2.1"
 molecule = {extras = ["podman"], version = "~=24.2.0"}
 molecule-podman = "~=2.0.3"
-reuse = "~=3.0.1"
+reuse = "~=3.0.2"
 
 [packages]
 ansible = "~=9.3.0"
