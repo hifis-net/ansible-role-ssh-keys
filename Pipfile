@@ -16,7 +16,7 @@ molecule-podman = "~=2.0.3"
 reuse = "~=3.0.1"
 
 [packages]
-ansible = "~=9.3.0"
+ansible = "~=9.5.1"
 
 [requires]
 python_version = "3.12"
